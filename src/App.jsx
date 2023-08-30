@@ -1,4 +1,5 @@
 import "./App.css";
+import { CallBackFunctions } from "./components/CallBackFunctions";
 import { Card } from "./components/Card";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <Card name="Jack" job="dancer" profile="jack.jpg" />
         <Card name="John" job="cook" profile="john.jpg" />
         <Card name="Jennifer" job="diver" profile="jennifer.jpg" />
+        <CallBackFunctions />
       </div>
     </>
   );
